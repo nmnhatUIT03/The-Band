@@ -1,0 +1,56 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-family: Lato, sans-serif;
+}
+#main{
+
+}
+#header{
+    height: 46px;
+    background-color: #000;
+}
+#nav{
+
+}
+#nav li{
+    display: inline-block;
+    padding: 0px;
+    
+    
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    left: 0;
+    top: 46px;
+}
+
+#nav li:hover a{
+    color: black;
+    background-color: grey;
+}
+#slider{
+
+}
+#content{
+
+}
+#footer{
+
+}
