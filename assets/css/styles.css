@@ -20,9 +20,11 @@ html{
 #nav li{
     display: inline-block;
     padding: 0px;
-    
+    position: relative;   
     
 }
+
+#nav > li  a{}
 
 #nav li a{
     color: #fff;
@@ -35,7 +37,7 @@ html{
 #nav .subnav{
     display: none;
     position: absolute;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     left: 0;
     top: 46px;
