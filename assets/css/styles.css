@@ -24,18 +24,24 @@ html{
     
 }
 
-#nav > li  a{}
+#nav > li > a{
+    color: #fff;
+}
 
 #nav li a{
-    color: #fff;
+    
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
     display: inline-block;
 }
+#nav > li:hover > a{
+    color: black;
+    background-color: grey;
+}
 
 #nav .subnav{
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: #fff;
     width: 100%;
@@ -43,10 +49,11 @@ html{
     top: 46px;
 }
 
-#nav li:hover a{
-    color: black;
-    background-color: grey;
+#nav .subnav a{
+    color: #000;
 }
+
+
 #slider{
 
 }
